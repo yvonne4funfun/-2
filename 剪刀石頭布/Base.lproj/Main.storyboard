@@ -33,7 +33,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="剪刀" image="playerScissors"/>
                                 <connections>
-                                    <action selector="scissorsButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cwz-0Q-oF3"/>
+                                    <action selector="scissorsButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DTn-BQ-Lpe"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lnm-XR-Y6b">
@@ -45,11 +45,11 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yy1-Eh-XlG">
-                                <rect key="frame" x="78" y="224" width="256" height="136"/>
+                                <rect key="frame" x="78" y="244" width="256" height="136"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qPg-Bj-MbC">
-                                <rect key="frame" x="110" y="388" width="193" height="74"/>
+                                <rect key="frame" x="110" y="399" width="193" height="74"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="40"/>
                                 <color key="textColor" red="0.96182441340000002" green="0.99881535769999996" blue="0.97940622759999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -67,17 +67,64 @@
                                 <rect key="frame" x="93" y="496" width="228" height="155"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YDC-N5-gog">
+                                <rect key="frame" x="0.0" y="728" width="109" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="playerUp"/>
+                                <connections>
+                                    <action selector="up:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6Bf-Wt-K0o"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p5P-z5-ldc">
+                                <rect key="frame" x="97" y="728" width="109" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="playerDown"/>
+                                <connections>
+                                    <action selector="down:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cuN-aP-Enw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EAa-Cl-I4Q">
+                                <rect key="frame" x="181" y="728" width="109" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="playerLeft"/>
+                                <connections>
+                                    <action selector="left:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ifF-Gw-BUW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aeq-jK-co2">
+                                <rect key="frame" x="290" y="728" width="109" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="playerRight"/>
+                                <connections>
+                                    <action selector="right:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wkv-FJ-j9H"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7vA-tu-vio">
+                                <rect key="frame" x="299" y="176" width="107" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
+                                <state key="normal" title="restart">
+                                    <color key="titleColor" red="0.99881535769999996" green="0.96770018339999997" blue="0.86775535349999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="restart:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FXn-hI-xbF"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.99881535769999996" green="0.96770018339999997" blue="0.86775535349999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
+                        <outlet property="downButton" destination="p5P-z5-ldc" id="g3z-Tr-Y55"/>
                         <outlet property="iphoneImageView" destination="yy1-Eh-XlG" id="YRx-qs-wXZ"/>
+                        <outlet property="leftButton" destination="EAa-Cl-I4Q" id="NW5-ia-IhI"/>
                         <outlet property="papperButton" destination="Lnm-XR-Y6b" id="xht-jn-45F"/>
                         <outlet property="playerImageView" destination="I5S-4s-1xz" id="zN4-6y-trn"/>
                         <outlet property="resultLabel" destination="qPg-Bj-MbC" id="rZY-b4-oka"/>
+                        <outlet property="rightButton" destination="aeq-jK-co2" id="ExM-bG-3NI"/>
                         <outlet property="rockButton" destination="XvA-iS-hvt" id="Klr-Wh-IpH"/>
-                        <outlet property="scissorsButton" destination="tHq-Ja-eED" id="66u-DM-31D"/>
+                        <outlet property="scissorsButton" destination="tHq-Ja-eED" id="V34-nB-Cra"/>
+                        <outlet property="upButton" destination="YDC-N5-gog" id="KHb-dP-ntm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -87,8 +134,12 @@
     </scenes>
     <resources>
         <image name="fb77f57817315f954813925e5ff8e19a" width="1024" height="1381"/>
+        <image name="playerDown" width="256" height="256"/>
+        <image name="playerLeft" width="256" height="256"/>
         <image name="playerPapper" width="165" height="138"/>
+        <image name="playerRight" width="256" height="256"/>
         <image name="playerRock" width="158" height="147"/>
         <image name="playerScissors" width="143" height="140"/>
+        <image name="playerUp" width="256" height="256"/>
     </resources>
 </document>
